@@ -44,6 +44,9 @@ export default function Nav() {
         <a href={GDSC_LINK} target="_blank" rel="noreferrer">
           About
         </a>
+        <Link href="/alumni" scroll={false}>
+          <a>Alumni</a>
+        </Link>
         <Link href="/contact" scroll={false}>
           <a>Contact</a>
         </Link>
